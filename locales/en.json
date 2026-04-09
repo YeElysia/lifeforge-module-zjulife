@@ -1,0 +1,10 @@
+{
+  "title": "ZJU Life",
+  "description": "Improve your zju life",
+  "items": {
+    "dashboard": "items Xzzd"
+  },
+  "subsections": {
+    "dashboard": "Xzzd"
+  }
+}

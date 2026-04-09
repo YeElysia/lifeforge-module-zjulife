@@ -1,0 +1,10 @@
+{
+  "title": "ZJU Life",
+  "description": "Improve your zju life",
+  "items": {
+    "dashboard": "items 学在浙大"
+  },
+  "subsections": {
+    "dashboard": "学在浙大"
+  }
+}

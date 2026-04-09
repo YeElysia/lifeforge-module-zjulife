@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
+dist/
+dist-docker/
+build/
+.next/
+out/

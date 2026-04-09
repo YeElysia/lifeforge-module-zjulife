@@ -1,0 +1,27 @@
+{
+  "name": "@lifeforge/yee--zju-life",
+  "displayName": "ZJU Life",
+  "version": "0.0.1",
+  "author": "Yee <3330637731@qq.com>",
+  "description": "ZJU Life tool.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yeelysia/lifeforge-module-zjulife.git"
+  },
+  "scripts": {
+    "types": "cd client && bun tsc",
+    "build:client": "cd client && bun run vite build",
+    "build:server": "bun build ./server/index.ts --outdir ./server/dist --target node --external @lifeforge/server-utils --external zod"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "lifeforge": {
+    "icon": "tabler:code",
+    "category": "Productivity"
+  },
+  "peerDependencies": {
+    "@lifeforge/server-utils": "workspace:*",
+    "lifeforge-ui": "workspace:*",
+    "shared": "workspace:*"
+  }
+}
